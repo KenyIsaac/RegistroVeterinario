@@ -8,11 +8,11 @@ export default function Barra() {
                 <Container fluid>
                     <Navbar.Toggle aria-controls="offcanvasNavbar" />
                     
-                    <Navbar.Brand href="#">Bienvenido: Keny</Navbar.Brand> 
+                    <Navbar.Brand href="#"><i class="fas fa-user-md"></i> Bienvenido: Keny</Navbar.Brand> 
                     <Navbar.Brand href="#"></Navbar.Brand> 
                     <Navbar.Brand href="#"></Navbar.Brand> 
                     <Navbar.Brand href="#"></Navbar.Brand> 
-                    <Navbar.Brand href="#">Cerrar sesión</Navbar.Brand>  
+                    <Navbar.Brand href="#"><i class="fas fa-user"></i> Cerrar sesión</Navbar.Brand>  
 
                     <Navbar.Offcanvas
                     id="offcanvasNavbar"
@@ -26,13 +26,13 @@ export default function Barra() {
                         <Nav className="justify-content-end flex-grow-1 pe-3">
 
                         <NavDropdown title="Registro" id="offcanvasNavbarDropdown">
-                            <NavDropdown.Item href="/registrarpropietario">Registrar propietario</NavDropdown.Item>
-                            <NavDropdown.Item href="/registrarmascota">Registrar mascota</NavDropdown.Item>
+                            <NavDropdown.Item href="/registrarpropietario"><i class="fas fa-user-edit"></i> Registrar propietario</NavDropdown.Item>
+                            <NavDropdown.Item href="/registrarmascota"><i class="fas fa-folder-open"></i> Registrar mascota</NavDropdown.Item>
                         </NavDropdown>
 
                         <NavDropdown title="Reporte" id="offcanvasNavbarDropdown">
-                            <NavDropdown.Item href="/verpropietario">Ver propietarios</NavDropdown.Item>
-                            <NavDropdown.Item href="/vermascotas">Ver mascotas</NavDropdown.Item>
+                            <NavDropdown.Item href="/verpropietario"><i class="fas fa-id-card-alt"></i> Ver propietarios</NavDropdown.Item>
+                            <NavDropdown.Item href="/vermascotas"><i class="fas fa-paw"></i> Ver mascotas</NavDropdown.Item>
                         </NavDropdown>
 
                         </Nav>

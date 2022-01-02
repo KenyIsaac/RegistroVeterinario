@@ -9,7 +9,7 @@ export default function RegistrarMascota() {
                 <div className="col-md-7  mx-auto">
                     <div className="card">
                     <div className="container text-center fa-5x">
-                        <i className="fas fa-user-plus"></i>
+                    <i class="fas fa-paw"></i>
                     </div>
                     <div className="card-header bg-success text-center">
                         <h4>Registrar Mascota</h4>
@@ -25,17 +25,12 @@ export default function RegistrarMascota() {
                             </div>
 
                             <div className="col-md-6">
-                            <label>Nº de microchip</label>
+                            <label>Fecha de nacimiento</label>
                             <input type="text" className="form-control required" />
                             </div>
 
                             <div className="col-md-6">
-                            <label>Nombre del propietario</label>
-                            <input type="text" className="form-control required" />
-                            </div>
-
-                            <div className="col-md-6">
-                            <label>Teléfono del propietario</label>
+                            <label>Especie</label>
                             <input type="text" className="form-control required" />
                             </div>
 
@@ -45,7 +40,22 @@ export default function RegistrarMascota() {
                             </div>
 
                             <div className="col-md-6">
-                            <label>Estado vacunal</label>
+                            <label>Última vacuna</label>
+                            <input type="text" className="form-control required" />
+                            </div>
+
+                            <div className="col-md-6">
+                            <label>Última desparacitación</label>
+                            <input type="text" className="form-control required" />
+                            </div>
+
+                            <div className="col-md-6">
+                            <label>Nombre del propietario</label>
+                            <input type="text" className="form-control required" />
+                            </div>
+
+                            <div className="col-md-6">
+                            <label>Número de celular</label>
                             <input type="text" className="form-control required" />
                             </div>
 

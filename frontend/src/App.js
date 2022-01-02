@@ -5,6 +5,7 @@ import RegistrarPropietario from './componentes/RegistrarPropietario';
 import VerPropietario from './componentes/VerPropietario';
 import RegistrarMascota from './componentes/RegistrarMascota';
 import VerMascotas from './componentes/VerMascotas';
+import Login from './componentes/Login';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 
       <Barra />
 
+      <Route path="/" exact component={Login} />
       <Route path="/registrarpropietario" exact component={RegistrarPropietario} />      
       <Route path="/verpropietario" exact component={VerPropietario} />
       <Route path="/registrarmascota" exact component={RegistrarMascota} />
