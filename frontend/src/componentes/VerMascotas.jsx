@@ -30,7 +30,7 @@ function BasicSearch() {
 
          const id = sessionStorage.getItem('idPropietario')
          const token = sessionStorage.getItem('token')
-         const respuesta = await Axios.get('/mascota/listarMascotaPropietario/'+id,mascotas,{
+         const respuesta = await Axios.get('/mascota/listarMascotaPropietario/'+id,{
              headers:{'autorizacion':token}
          })
 

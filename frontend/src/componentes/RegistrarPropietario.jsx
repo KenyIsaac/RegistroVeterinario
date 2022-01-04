@@ -1,4 +1,4 @@
-import React, {  useState, useEffect } from 'react';
+import React, {  useState, } from 'react';
 import Axios from 'axios';
 import Swal from 'sweetalert2';
 
@@ -7,7 +7,7 @@ export default function RegistrarPropietario() {
 
     const [nombre, setNombre]=useState('')
     const [correo, setCorreo]=useState('')
-    const [contrasena, setcontrasena]=useState('')
+    const [contrasena, setContrasena]=useState('')
 
     const  registro = async(e)=>{
         e.preventDefault();
