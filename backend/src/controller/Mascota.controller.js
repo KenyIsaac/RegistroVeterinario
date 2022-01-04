@@ -4,10 +4,10 @@ const Mascota = require('../models/Mascota.models')
 
 MascotaCtrl.crear= async(req,res)=>{
 
-    const {nombremascota, fechaNacimiento, especie, estadoReproductivo, ultimaVacuna, ultimaDesparasitacion, propietario, propietarioNombre, numeroTelefono} = req.body
+    const {nombreMascota, fechaNacimiento, especie, estadoReproductivo, ultimaVacuna, ultimaDesparasitacion, propietario, propietarioNombre, numeroTelefono} = req.body
     const NuevaMascota = new Mascota({
 
-        nombremascota, 
+        nombreMascota,
         fechaNacimiento, 
         especie, 
         estadoReproductivo, 
